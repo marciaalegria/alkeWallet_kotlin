@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">ProyectoAndroidStudio</string>
+    <string name="wallet_text">El lugar más seguro para tu dinero</string>
+    <string name="logo">logo</string>
+    <string name="crear_nueva_cuenta">Crear nueva cuenta</string>
+    <string name="ya_tienes_cuenta">Ya tiene cuenta</string>
+    <string name="crear_cuenta">Crear cuenta</string>
+    <string name="text_loguea">Logea y empeza a transferir!</string>
+    <string name="email">Email</string>
+    <string name="password">Contraseña</string>
+    <string name="forgot_password">Olvidó su contraseña?</string>
+    <string name="create_new">crear cuenta nueva</string>
+    <string name="login">login</string>
+    <string name="register_text">Registrarse y empezar a transferir!</string>
+    <string name="inicio">Inicio</string>
+    <string name="user_name">Hola, Amanda!</string>
+</resources>
