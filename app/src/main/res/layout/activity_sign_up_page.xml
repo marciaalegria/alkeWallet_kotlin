@@ -36,7 +36,7 @@
             android:textStyle="bold" />
 
         <com.google.android.material.textfield.TextInputLayout
-            android:id="@+id/textInputLayout"
+            android:id="@+id/textInputName"
             style="@style/Widget.Material3.TextInputLayout.OutlinedBox"
             android:layout_width="350dp"
             android:layout_height="90dp"
@@ -70,7 +70,7 @@
             android:textStyle="bold" />
 
         <com.google.android.material.textfield.TextInputLayout
-            android:id="@+id/textInputLayout"
+            android:id="@+id/textinputLastName"
             style="@style/Widget.Material3.TextInputLayout.OutlinedBox"
             android:layout_width="350dp"
             android:layout_height="90dp"
@@ -104,7 +104,7 @@
             android:textStyle="bold" />
 
         <com.google.android.material.textfield.TextInputLayout
-            android:id="@+id/textInputLayout"
+            android:id="@+id/textInputEmail"
             style="@style/Widget.Material3.TextInputLayout.OutlinedBox"
             android:layout_width="350dp"
             android:layout_height="90dp"
@@ -139,7 +139,7 @@
             android:textStyle="bold" />
 
         <com.google.android.material.textfield.TextInputLayout
-            android:id="@+id/textInput"
+            android:id="@+id/textInputPassword"
             style="@style/Widget.Material3.TextInputLayout.OutlinedBox"
             android:layout_width="350dp"
             android:layout_height="90dp"
@@ -177,7 +177,7 @@
             android:textStyle="bold" />
 
         <com.google.android.material.textfield.TextInputLayout
-            android:id="@+id/t"
+            android:id="@+id/textInputNewPassword"
             style="@style/Widget.Material3.TextInputLayout.OutlinedBox"
             android:layout_width="350dp"
             android:layout_height="90dp"

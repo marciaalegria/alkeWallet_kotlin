@@ -14,4 +14,6 @@
     <string name="register_text">Registrarse y empezar a transferir!</string>
     <string name="inicio">Inicio</string>
     <string name="user_name">Hola, Amanda!</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>
