@@ -36,6 +36,7 @@ android {
     buildFeatures{
         viewBinding=true
     }
+
 }
 
 dependencies {
@@ -44,10 +45,11 @@ dependencies {
     val activityVersion = "1.9.0"
     val fragmentVersion = "1.7.1"
 
-    implementation(libs.appcompat)
     implementation(libs.material)
     implementation(libs.activity)
     implementation(libs.constraintlayout)
+    implementation ("androidx.appcompat:appcompat:1.6.1")
+
     implementation("androidx.navigation:navigation-fragment-ktx:$navVersion")
     implementation("androidx.navigation:navigation-ui-ktx:$navVersion")
     implementation("androidx.lifecycle:lifecycle-viewmodel-ktx:$lifecycleVersion")

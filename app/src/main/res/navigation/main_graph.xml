@@ -12,6 +12,9 @@
         android:label="fragment_splash"
         tools:layout="@layout/fragment_splash" >
 
+        <action
+            android:id="@+id/action_splashFragment_to_loginSignUpFragment"
+            app:destination="@id/loginSignUpFragment" />
     </fragment>
     <fragment
         android:id="@+id/loginSignUpFragment"
@@ -19,6 +22,12 @@
         android:label="fragment_login_sign_up_page"
         tools:layout="@layout/fragment_login_sign_up_page">
 
+        <action
+            android:id="@+id/action_loginSignUpFragment_to_loginPageFragment"
+            app:destination="@id/loginPageFragment" />
+        <action
+            android:id="@+id/action_loginSignUpFragment_to_signUpPageFragment"
+            app:destination="@+id/signUpPageFragment"/>
     </fragment>
     <fragment
         android:id="@+id/loginPageFragment"
@@ -26,6 +35,9 @@
         android:label="fragment_login_page"
         tools:layout="@layout/fragment_login_page">
 
+        <action
+            android:id="@+id/action_loginPageFragment_to_signUpPageFragment"
+            app:destination="@id/signUpPageFragment" />
     </fragment>
     <fragment
         android:id="@+id/signUpPageFragment"
@@ -33,12 +45,18 @@
         android:label="fragment_sign_up_page"
         tools:layout="@layout/fragment_sign_up_page">
 
+        <action
+            android:id="@+id/action_signUpPageFragment_to_homePageFragment"
+            app:destination="@id/homePageFragment" />
     </fragment>
     <fragment
         android:id="@+id/homePageFragment"
         android:name="com.example.proyectoandroidstudio.HomePageFragment"
         android:label="fragment_home_page"
         tools:layout="@layout/fragment_home_page">
+        <action
+            android:id="@+id/action_homePageFragment_to_requestMoneyFragment"
+            app:destination="@id/requestMoneyFragment" />
     </fragment>
     <fragment
         android:id="@+id/requestMoneyFragment"
@@ -46,6 +64,9 @@
         android:label="fragment_request_money"
         tools:layout="@layout/fragment_request_money">
 
+        <action
+            android:id="@+id/action_requestMoneyFragment_to_profileFragment"
+            app:destination="@id/profileFragment" />
     </fragment>
     <fragment
         android:id="@+id/profileFragment"
