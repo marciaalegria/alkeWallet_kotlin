@@ -226,6 +226,7 @@
         app:layout_constraintTop_toBottomOf="@+id/tv1">
 
         <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/buttonCrearCuenta"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="@drawable/border_button"
@@ -237,6 +238,7 @@
             tools:layout_editor_absoluteY="262dp" />
 
         <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/buttonYaTieneCuenta"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="@color/white"

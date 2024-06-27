@@ -37,7 +37,7 @@
 
         <action
             android:id="@+id/action_loginPageFragment_to_signUpPageFragment"
-            app:destination="@id/signUpPageFragment" />
+            app:destination="@id/signUpPageFragment"/>
     </fragment>
     <fragment
         android:id="@+id/signUpPageFragment"
@@ -48,6 +48,9 @@
         <action
             android:id="@+id/action_signUpPageFragment_to_homePageFragment"
             app:destination="@id/homePageFragment" />
+        <action
+            android:id="@+id/action_signUpPageFragment_to_profileFragment"
+            app:destination="@id/profileFragment" />
     </fragment>
     <fragment
         android:id="@+id/homePageFragment"
